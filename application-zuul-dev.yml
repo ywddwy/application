@@ -3,3 +3,10 @@ server:
 spring:
   application:
     name: aigou-zuul-gateway
+zuul:
+  routes:
+    myUser.serviceId: aigou-plat
+    myUser.path: /plat/** 
+  ignored-services: "*"
+  prefix: /services     
+  
