@@ -5,7 +5,7 @@ spring:
     name: aigou-product
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/jdbcwork
+    url: jdbc:mysql://localhost:3306/aigou_product
     username: root
     password: 1219
 mybatis-plus:
