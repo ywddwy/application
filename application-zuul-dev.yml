@@ -13,5 +13,4 @@ zuul:
     myCommon.path: /common/**
   ignored-services: "*"
   prefix: /services
-ribbon.eureka.enabled: false
   
