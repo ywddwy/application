@@ -12,5 +12,6 @@ zuul:
     myCommon.serviceId: aigou-common
     myCommon.path: /common/**
   ignored-services: "*"
-  prefix: /services     
+  prefix: /services
+ribbon.eureka.enabled: false
   
