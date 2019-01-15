@@ -2,7 +2,14 @@ server:
   port: 8010
   max-http-header-size: 1048576
   tomcat:
-    max-http-post-size: 1048576
+      max-http-post-size: 1048576
 spring:
   application:
     name: aigou-common
+feign:
+  hystrix:
+    enabled: false
+ribbon:
+    ReadTimeout: 61000
+    ConnectTimoout: 61000
+  
