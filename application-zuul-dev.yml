@@ -9,6 +9,8 @@ zuul:
     myUser.path: /plat/** 
     myProduct.serviceId: aigou-product
     myProduct.path: /product/**
+    myCommon.serviceId: aigou-common
+    myCommon.path: /common/**
   ignored-services: "*"
   prefix: /services     
   
