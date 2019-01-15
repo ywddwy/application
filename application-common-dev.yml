@@ -6,10 +6,4 @@ server:
 spring:
   application:
     name: aigou-common
-feign:
-  hystrix:
-    enabled: false
-ribbon:
-    ReadTimeout: 61000
-    ConnectTimoout: 61000
   
